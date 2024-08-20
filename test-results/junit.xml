@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome Headless 126.0.6478.127 (Windows 10)" package="" timestamp="2024-07-12T10:14:26" id="0" hostname="YaseenAhmad" tests="9" errors="0" failures="0" time="0.082">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/126.0.6478.127 Safari/537.36"/>
+  </properties>
+  <testcase name="QuoteService should remove a created post from the array of posts" time="0.011" classname="QuoteService"/>
+  <testcase name="QuoteService should create a post in an array" time="0.001" classname="QuoteService"/>
+  <testcase name="QuotesComponent should create Quote component" time="0.045" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should enable button when textArea is not empty" time="0.007" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should disable the button when textArea is empty" time="0.004" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should create a new post" time="0.003" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should fetch data asynchronously" time="0.004" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should remove post upon card click" time="0.004" classname="QuotesComponent"/>
+  <testcase name="QuotesComponent should use the quoteList from the service" time="0.003" classname="QuotesComponent"/>
+  <system-out>
+    <![CDATA[Chrome Headless 126.0.6478.127 (Windows 10) WARN: 'Spec 'QuotesComponent should fetch data asynchronously' has no expectations.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

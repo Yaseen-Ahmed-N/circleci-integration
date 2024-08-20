@@ -1,0 +1,24 @@
+version: 2.1
+
+jobs:
+  run-tests:
+    docker:
+      - image: circleci/node:16-browsers
+    steps:
+      - checkout
+      - run:
+          name: Install Dependencies
+          command: npm install
+      - run:
+          name: Run Unit Tests
+          command: ./node_modules/.bin/ng test --watch=false --browsers=ChromeHeadless
+      - store_test_results:
+          path: test-results
+      - store_artifacts:
+          path: test-results        
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - run-tests
